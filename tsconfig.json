@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES6",
+    "lib": ["ESNext", "ESNext.AsyncIterable"],
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "outDir": "./build",
+    "pretty": true,
+
+    "removeComments": true,
+    "alwaysStrict": true,
+    "noImplicitAny": true,
+    "noImplicitThis": true,
+    "noFallthroughCasesInSwitch": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true
+  },
+
+  "exclude": ["./node_modules", "./build", "./tests", "/**/*.{test,spec}.{ts,js}"],
+  "include": ["./src/**/*.ts"]
+}

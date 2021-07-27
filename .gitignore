@@ -1,0 +1,12 @@
+*.log
+.vscode
+node_modules/
+
+# Production build
+build/
+
+# Environment variables
+.env
+.env.development
+.env.production
+.env.test
